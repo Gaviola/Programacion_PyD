@@ -1,0 +1,3 @@
+/home/fgaviola/CLionProjects/Progamacion_PyD/cmake-build-debug/CMakeFiles/Progamacion_PyD.dir
+/home/fgaviola/CLionProjects/Progamacion_PyD/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fgaviola/CLionProjects/Progamacion_PyD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
