@@ -8,4 +8,6 @@ add_executable(Progamacion_PyD
         EJ1.cpp
         EJ2.cpp
         funciones.h
-        EJ3.cpp)
+        EJ3_a.cpp
+        EJ3_b.cpp
+)

@@ -10,6 +10,8 @@ void Ejercicio2(int n, int m);
 void procesoT1(int id);
 void procesoT2(int id);
 
-int Ejercicio3(int numJugadores);
+void Ejercicio3_a(int numJugadores);
+void Ejercicio3_b(int numJugadores);
+int RangoAleatorio(int min, int max);
 
 #endif //FUNCIONES_H

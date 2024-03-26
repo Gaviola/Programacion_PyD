@@ -1,15 +1,22 @@
 #include "funciones.h"
 #include <iostream>
 
+using std::cout, std::endl;
+
 int main() {
     /*
-    std::cout << "Ejercicio 1" << std::endl;
+    cout << "Ejercicio 1" << endl;
     Ejercicio1(3,4);
-    std::cout << "\n";
-    std::cout << "Ejercicio 2" << std::endl;
+    cout << "\n";
+    cout << "Ejercicio 2" << endl;
     Ejercicio2(3,4);
+    */
+    cout << "Ejercicio 3_a" << endl;
+    Ejercicio3_a(4);
+    cout << "\n";
+    /*
+    cout << "Ejercicio 3_b" << endl;
+    Ejercicio3_b(4);
+    cout << "\n";
      */
-    std::cout << "Ejercicio 3" << std::endl;
-    Ejercicio3(4);
-    std::cout << "\n";
 }
