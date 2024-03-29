@@ -119,6 +119,17 @@ void repartirCartas(int numJugadores) {
     for (int i = 0; i < numJugadores; ++i) {
         cout << "Jugador " << i << " puntos: " << puntos[i] << endl;
     }
+    float mejorPuntuacion = 0;
+    int ganador = -1;
+    for (int i = 0; i < numJugadores; ++i) {
+        if (puntos[i] > mejorPuntuacion && puntos[i] <= 7.5) {
+            mejorPuntuacion = puntos[i];
+            ganador = i;
+        }
+    }
+    cout << "El ganador es el jugador " << ganador << " con " << mejorPuntuacion << " puntos." << endl;
+
+
 }
 
 void Ejercicio3_a(int numJugadores) {
